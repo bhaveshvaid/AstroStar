@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "512572274964",
+    "project_id": "astrostarapp",
+    "storage_bucket": "astrostarapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512572274964:android:5e890c27288b4671256a01",
+        "android_client_info": {
+          "package_name": "com.astrostar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512572274964-s89qsvat2rej7b8ijs00rv1difi21t0j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.astrostar",
+            "certificate_hash": "b75f31455e8af15af4f2675408fdb1529c542c52"
+          }
+        },
+        {
+          "client_id": "512572274964-pmd9h7s1ge4c4de3ns28tbv1h2tq4dfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoexylB-sbxOP27DSf9Iq4kHZnIQRjOzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512572274964-pmd9h7s1ge4c4de3ns28tbv1h2tq4dfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
