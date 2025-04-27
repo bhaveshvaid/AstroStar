@@ -102,7 +102,7 @@ const OnboardingScreen = () => {
         </View>
         
         <View style={styles.buttonContainer}>
-          <TouchableOpacity onPress={handleSkip}>
+          <TouchableOpacity onPress={handleSkip} style={{padding:15}}>
             <Text style={styles.skipText}>Skip</Text>
           </TouchableOpacity>
           
@@ -174,6 +174,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: '85%',
     marginBottom: 40,
+    // backgroundColor:'#000'
   },
   skipText: {
     color: '#BBBBBB',

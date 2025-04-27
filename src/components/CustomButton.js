@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
   buttonContainer: {
     borderRadius: theme.roundness,
     overflow: 'hidden',
-    elevation: 3,
+    // elevation: 3,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     alignItems: 'center',
     justifyContent: 'center',
-    elevation: 3,
+    // elevation: 3,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,

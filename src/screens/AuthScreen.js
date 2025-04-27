@@ -125,7 +125,7 @@ const AuthScreen = () => {
           <View style={styles.container}>
             <Image
               source={require('../assets/images/logo.png')}
-              style={styles.logo}
+              style={[styles.logo,{width:100}]}
               resizeMode="contain"
             />
             
@@ -222,6 +222,8 @@ const styles = StyleSheet.create({
     padding: 24,
     justifyContent: 'center',
     alignItems: 'center',
+    paddingTop:2,
+    paddingBottom:2
   },
   logo: {
     width: 150,

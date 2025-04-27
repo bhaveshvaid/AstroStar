@@ -140,15 +140,17 @@ const BirthChartScreen = () => {
     const planets = [
       { id: 'sun', name: 'Sun', icon: 'white-balance-sunny' },
       { id: 'moon', name: 'Moon', icon: 'moon-waning-crescent' },
-      { id: 'mercury', name: 'Mercury', icon: 'mercury' },
-      { id: 'venus', name: 'Venus', icon: 'venus' },
-      { id: 'mars', name: 'Mars', icon: 'mars' },
-      { id: 'jupiter', name: 'Jupiter', icon: 'jupiter' },
-      { id: 'saturn', name: 'Saturn', icon: 'saturn' },
-      { id: 'uranus', name: 'Uranus', icon: 'finance' },
+      { id: 'mercury', name: 'Mercury', icon: 'orbit' }, // closest match
+      { id: 'venus', name: 'Venus', icon: 'gender-female' },
+      { id: 'mars', name: 'Mars', icon: 'gender-male' },
+      { id: 'jupiter', name: 'Jupiter', icon: 'alpha-j-circle-outline' }, // J for Jupiter
+      { id: 'saturn', name: 'Saturn', icon: 'ring' }, // use 'ring' to represent Saturn’s rings
+      { id: 'uranus', name: 'Uranus', icon: 'ufo' }, // something spacey, no planet icon
       { id: 'neptune', name: 'Neptune', icon: 'waves' },
       { id: 'pluto', name: 'Pluto', icon: 'atom' },
     ];
+    
+    
 
     return (
       <View style={styles.planetaryContainer}>

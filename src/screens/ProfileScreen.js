@@ -190,11 +190,11 @@ const ProfileScreen = ({ navigation }) => {
           <Icon name="chevron-right" size={24} color="#BBBBBB" />
         </TouchableOpacity>
         
-        <TouchableOpacity style={styles.settingItem}>
+        {/* <TouchableOpacity style={styles.settingItem}>
           <Icon name="theme-light-dark" size={24} color="#FFFFFF" />
           <Text style={styles.settingText}>Appearance</Text>
           <Icon name="chevron-right" size={24} color="#BBBBBB" />
-        </TouchableOpacity>
+        </TouchableOpacity> */}
         
         <TouchableOpacity style={styles.settingItem}>
           <Icon name="shield-lock-outline" size={24} color="#FFFFFF" />

@@ -157,8 +157,6 @@ const HomeScreen = () => {
         
         <View style={styles.featuresContainer}>
           <Text style={styles.sectionTitle}>Cosmic Features</Text>
-          
-          // src/screens/HomeScreen.js (continued)
           <View style={styles.featureCardsContainer}>
             <TouchableOpacity
               style={styles.featureCard}
